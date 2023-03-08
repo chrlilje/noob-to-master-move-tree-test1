@@ -17,7 +17,7 @@ function setup() {
 
 function draw() {
 	background(100);
-	image(tree.img, tree.x, tree.y);
+	image(tree.img, tree.x, tree.y,50,50);
 	moveTree();
 }
 
